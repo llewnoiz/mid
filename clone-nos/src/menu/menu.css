@@ -1,0 +1,23 @@
+.root__container {
+    min-width: 1280px;
+    min-height: 720px;
+    position: relative;
+}
+
+.root__container__backgounrd {
+    background : rgba(16,16,16, 0.8);
+}
+
+.menu__container {
+    top: 90px;
+    left: 0px;
+    position: absolute;
+    max-width: 630px;
+}
+
+.menu__item {
+    width: 420px;
+    height: 100px;
+    display: table;
+    vertical-align: middle;
+}
