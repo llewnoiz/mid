@@ -18,6 +18,30 @@
 .menu__item {
     width: 420px;
     height: 100px;
-    display: table;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu__item__img{
+    margin-left: 100px;
+}
+
+.theme-color-focus-green {
+    background: #62a60a;
+}
+
+.active{
+    opacity: 1.0;
+}
+
+.inactive{
+    opacity: 0.3;
+}
+
+.menu__item__text{
+    font-family: 'AzoSansWeb-Regular';
+    font-size: 30px;
+    color: rgba(234, 234, 234, 1);
+    margin-left: 21px;
 }

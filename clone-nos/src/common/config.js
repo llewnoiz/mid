@@ -7,11 +7,11 @@ const model = {
 const config = {
 
     "menu" : [
-        {"name" : "channel",    "img" : `/common/img/${model.resolution}/icons/38x38/channels_38.png`,  "active": true},
-        {"name" : "guide",      "img" : `/common/img/${model.resolution}/icons/38x38/guide_38.png`,     "active": true},
-        {"name" : "recordings", "img" : `/common/img/${model.resolution}/icons/38x38/record_38.png`,    "active": true},
-        {"name" : "media",      "img" : `/common/img/${model.resolution}/icons/38x38/media_38.png`,     "active": true},
-        {"name" : "settings",   "img" : `/common/img/${model.resolution}/icons/38x38/setting_38.png`,   "active": true}
+        {"name" : "Channel",    "img" : require(`common/img/${model.resolution}/icons/38x38/channels_38.png`),  "active": true},
+        {"name" : "Guide",      "img" : require(`common/img/${model.resolution}/icons/38x38/guide_38.png`),     "active": true},
+        {"name" : "Recordings", "img" : require(`common/img/${model.resolution}/icons/38x38/record_38.png`),    "active": true},
+        {"name" : "Media",      "img" : require(`common/img/${model.resolution}/icons/38x38/media_38.png`),     "active": true},
+        {"name" : "Settings",   "img" : require(`common/img/${model.resolution}/icons/38x38/setting_38.png`),   "active": true}
     ],
 
     "recording" : [

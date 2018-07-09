@@ -2,11 +2,12 @@ import React, {Component } from 'react';
 import PropTypes  from 'prop-types';
 
 /** User */
-import config from '../common/config';
+import config from 'common/config';
 
 /** ref */
 
 /** css */
+import font from 'common/fonts/font.css';
 import menusCss from './menu.css';
 
 class Menu extends Component {
@@ -16,16 +17,29 @@ class Menu extends Component {
 
     componentWillMount() {
         console.log('componentWillMount');
+        const getPvrSatus = '';
+        fetch(`${getPvrSatus}`)
+        .then( data => data.json())
+        .then( json => this._getPvrStatus(json))
+        .catch( e => { console.log(`e error : ${e}`) });
     }
 
     componentDidMount() {
-        setTimeout(() => {
+        setTimeout( () => {
             this.setState(
                 {pvr : true}
             );
-            console.log(`state pvr : ${this.state.pvr}`);
+            console.log(`state pvr : ${this.state.pvr}`)
         }, 3000);
         console.log(`state pvr : ${this.state.pvr}`);
+    }
+
+    _getPvrStatus = (json) => {
+        if(json.result === 'ok') {
+            console.log('you can use pvr');
+        } else {
+            console.log('pvr is not supported / you can not enable pvr');
+        }
     }
 
     _renderMovies = () => {
@@ -56,8 +70,8 @@ class Menu extends Component {
 function MenuItem({name,img, active}) {
     return (
         <div className="menu__item">
-            <img className="" src={ window.location.origin  + img}/>
-            <label className="">{name}</label>
+            <img src={img} className="menu__item__img active" />
+            <label className="menu__item__text">{name}</label>
         </div>   
     );
 }

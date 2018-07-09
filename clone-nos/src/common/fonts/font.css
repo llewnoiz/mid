@@ -1,0 +1,108 @@
+@font-face {
+    font-family: AzoSansWeb-Black;
+    src: url('./Azo_Sans_font/AzoSansWeb-Black.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-BlackItalic;
+    src: url('./Azo_Sans_font/AzoSansWeb-BlackItalic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-Bold;
+    src: url('./Azo_Sans_font/AzoSansWeb-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-BoldItalic;
+    src: url('./Azo_Sans_font/AzoSansWeb-BoldItalic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-italic;
+    src: url('./Azo_Sans_font/AzoSansWeb-italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-Light;
+    src: url('./Azo_Sans_font/AzoSansWeb-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-LightItalic;
+    src: url('./Azo_Sans_font/AzoSansWeb-LightItalic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-Medium;
+    src: url('./Azo_Sans_font/AzoSansWeb-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-MediumItalic;
+    src: url('./Azo_Sans_font/AzoSansWeb-MediumItalic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-Regular;
+    src: url('./Azo_Sans_font/AzoSansWeb-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-Thin;
+    src: url('./Azo_Sans_font/AzoSansWeb-Thin.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: AzoSansWeb-ThinItalic;
+    src: url('./Azo_Sans_font/AzoSansWeb-ThinItalic.ttf') format('truetype');
+  }
+  
+  .AzoSansWeb-Black {
+    font-family: AzoSansWeb-Black;
+  }
+  
+  .AzoSansWeb-BlackItalic {
+    font-family: AzoSansWeb-BlackItalic;
+  }
+  
+  .AzoSansWeb-Bold {
+    font-family: AzoSansWeb-Bold;
+  }
+  
+  .AzoSansWeb-BoldItalic {
+    font-family: AzoSansWeb-BoldItalic;
+  }
+  
+  .AzoSansWeb-italic {
+    font-family: AzoSansWeb-italic;
+  }
+  
+  .AzoSansWeb-Light {
+    font-family: AzoSansWeb-Light;
+  }
+  
+  .AzoSansWeb-LightItalic {
+    font-family: AzoSansWeb-LightItalic;
+  }
+  
+  .AzoSansWeb-Medium {
+    font-family: AzoSansWeb-Medium;
+  }
+  
+  .AzoSansWeb-MediumItalic {
+    font-family: AzoSansWeb-MediumItalic;
+  }
+  
+  .AzoSansWeb-Regular {
+    font-family: AzoSansWeb-Regular;
+  }
+  
+  .AzoSansWeb-Thin {
+    font-family: AzoSansWeb-Thin;
+  }
+  
+  .AzoSansWeb-ThinItalic {
+    font-family: AzoSansWeb-ThinItalic;
+  }
+  
